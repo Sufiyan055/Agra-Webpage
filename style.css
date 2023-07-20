@@ -1,0 +1,313 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+.containerMain {
+  background: url(https://images.pexels.com/photos/11444568/pexels-photo-11444568.jpeg);
+  height: 46.6rem;
+  width: 100%;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  object-fit: cover;
+}
+.navMainBar {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  justify-content: space-between;
+  padding: 5px 70px;
+  background: aliceblue;
+  width: 100%;
+  overflow: hidden;
+  transition: position 0.2s ease-in-out;
+  z-index: 1;
+}
+.navMainBar .AgraH1 {
+  font-family: "Roboto", sans-serif;
+}
+.AgraH1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.AgraH1 img {
+  width: 70px;
+  margin-right: 5px;
+}
+.navMainBar .navBar ul {
+  display: flex;
+}
+.navBar ul li {
+  list-style: none;
+  margin: 0px 20px;
+}
+.navBar ul li a {
+  text-decoration: none;
+  color: #000;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  position: relative;
+  padding: 3px 0px;
+}
+.navBar ul li a::after {
+  content: "";
+  width: 0%;
+  height: 2px;
+  margin: auto;
+  background-color: aquamarine;
+  transition: 0.5s ease-in-out;
+  position: absolute;
+  bottom: 0px;
+  left: 0px;
+}
+
+.navBar ul li a:hover::after {
+  width: 50%;
+}
+.searchBtn .searchIcon {
+  cursor: pointer;
+}
+.searchBar {
+  right: 120px;
+  height: 2rem;
+  width: 0rem;
+  text-align: center;
+  margin-top: 5px;
+  position: absolute;
+  border: 1px solid #000;
+  overflow: hidden;
+  transition: width 0.5s ease-in-out;
+}
+.searchBar .search {
+  width: 100%;
+  height: 100%;
+  border: none;
+  padding: 0px 10px;
+  outline: 0;
+}
+.searchBar .searchIcon2 {
+  position: absolute;
+  right: 20px;
+  top: 4px;
+  font-size: 20px;
+  color: rgba(128, 128, 128, 0.605);
+}
+
+/*  */
+.gotoTop {
+  position: fixed;
+  right: 16px;
+  bottom: 20px;
+  background-color: rgba(24, 226, 159, 0.893);
+  padding: 10px;
+  border-radius: 50%;
+  cursor: pointer;
+  display: none;
+  transition: block 0.5s ease-in-out;
+}
+
+/* ------------------------------- */
+.h1PlaceDiv {
+  padding-top: 50px;
+  padding-bottom: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.h1PlaceDiv .HPlaces {
+  border-bottom: 1px solid #000;
+}
+.TajMahal {
+  display: flex;
+  padding: 60px 50px;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  height: fit-content;
+}
+
+.imgTajMahal {
+  width: 400px;
+  height: fit-content;
+  border: 5px solid #fff;
+  box-shadow: 0px 0px 10px gray;
+  overflow: hidden;
+  margin: 7px;
+}
+.imgTajMahal img {
+  width: 100%;
+  transition: 2s linear;
+}
+.imgTajMahal img:hover {
+  transform: scale(1.5);
+}
+.wordsTajMahal {
+  width: 70%;
+  font-family: "Arial Narrow", Arial, sans-serif;
+  font-size: 1.9rem;
+  font-weight: 100;
+}
+.activeAgra {
+  background-color: azure;
+}
+.openMenu {
+  position: absolute;
+  top: 17px;
+  right: 15px;
+  display: none;
+  padding: 3px;
+}
+/* Facts */
+.imageBeforeFact {
+  width: 100%;
+  height: 25rem;
+  background: url(https://images.unsplash.com/photo-1575489181784-a99aa58e4bb5?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2002&q=80);
+  background-position: top;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 90px;
+}
+.h1PlaceDiv .hfacts {
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  color: lightskyblue;
+  -webkit-text-stroke: 1px #000;
+  border: none;
+  font-size: 1.5rem;
+}
+.factsAgra {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 50px 80px;
+}
+.factsAgra .factsAgraSub {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 30px 20px;
+}
+.factsAgraSub strong {
+  font-size: 1.5rem;
+  margin: 8px 0px;
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+}
+.factsAgraSub p {
+  font-size: 1.5rem;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+}
+/* About Agra */
+
+.AboutAgra {
+  padding: 20px 60px;
+  background-color: aliceblue;
+}
+.AboutAgra p {
+  font-size: 1.5rem;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  margin: 20px 10px;
+}
+#AboutAgraId {
+  margin-top: 30px;
+}
+
+.footerDiv {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 50vh;
+  background-color: azure;
+}
+.footerDiv footer {
+  font-size: 1.5rem;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+.footerDiv footer p:nth-child(1) {
+  font-weight: bolder;
+}
+.footerDiv footer p {
+  margin-bottom: 20px;
+}
+
+/* Media Query  */
+
+@media screen and (max-width: 1426px) {
+  .TajMahal {
+    flex-direction: column;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 20px;
+  }
+  .activeAgra {
+    flex-direction: column-reverse;
+  }
+  .wordsTajMahal {
+    font-size: 1.5rem;
+    width: 100%;
+  }
+  .imgTajMahal {
+    width: 80%;
+  }
+}
+/* 981px */
+@media screen and (max-width: 850px) {
+  .navMainBar {
+    flex-direction: column;
+    position: relative;
+    max-height: 70px;
+    transition: max-height 0.5s ease-in-out;
+  }
+
+  .navMainBar .navBar ul {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .navBar ul li {
+    margin-top: 20px;
+  }
+  .searchBtn {
+    margin-top: 10px;
+    right: 20%;
+    bottom: 5%;
+  }
+  .searchBar {
+    position: relative;
+    width: 50rem;
+    right: 1%;
+  }
+  .openMenu {
+    display: block;
+  }
+  .searchBar .searchIcon2 {
+    right: 3px;
+    top: 1px;
+  }
+  /* Facts */
+  .factsAgra {
+    padding: 20px 20px;
+  }
+  .factsAgra .factsAgraSub {
+    padding: 5px 0px;
+  }
+  /* About Agra */
+  .AboutAgra {
+    padding: 15px 2px;
+  }
+}
+
+/* Media Query  */
+/*  */

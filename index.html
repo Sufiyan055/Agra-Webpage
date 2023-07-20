@@ -1,0 +1,386 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;1,200&family=Roboto:ital,wght@0,400;0,500;1,300&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <title>Agra</title>
+  </head>
+  <body>
+    <div class="containerMain" id="HomeAgra">
+      <div class="navMainBar" id="navMainBar">
+        <span
+          class="material-symbols-outlined openMenu"
+          id="openMenu"
+          onclick="openMenu()"
+        >
+          menu
+        </span>
+        <h1 class="AgraH1">
+          <img src="TajMahalLogo.webp" />
+          Agra
+        </h1>
+        <nav class="navBar">
+          <ul>
+            <li><a href="#HomeAgra">Home</a></li>
+            <li><a href="#BestPlaces">Best places to visit</a></li>
+            <li><a href="#FactsAgraId">Some Facts</a></li>
+            <li><a href="#AboutAgraId">About Agra</a></li>
+          </ul>
+        </nav>
+        <div class="searchBtn" id="searchBtn" onclick="searchIcon()">
+          <span class="material-symbols-outlined searchIcon"> search </span>
+        </div>
+        <div class="searchBar" id="searchBar">
+          <input type="text" placeholder="Search" class="search" />
+          <span class="material-symbols-outlined searchIcon2"> search </span>
+        </div>
+      </div>
+    </div>
+
+    <!--  -->
+    <div class="gotoTop" onclick="BacktoTop()">
+      <span class="material-symbols-outlined"> expand_less </span>
+    </div>
+    <!--  -->
+
+    <div class="h1PlaceDiv" id="BestPlaces">
+      <h1 class="HPlaces">Best Places To visit in Agra</h1>
+    </div>
+    <!--  -->
+    <div class="TajMahal">
+      <div class="imgTajMahal">
+        <img
+          src="https://images.pexels.com/photos/602607/pexels-photo-602607.png?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+          alt=""
+        />
+      </div>
+      <div class="wordsTajMahal">
+        <strong>Taj Mahal</strong>
+        <p>
+          One of the seven wonders of the world, Taj Mahal is located on the
+          banks of River Yamuna in Agra. It was built by the Mughal Emperor Shah
+          Jahan as a memorial for his third wife, Mumtaz Mahal. It also houses
+          the tomb of Shah Jahan himself. Constructed entirely out of white
+          marble in the 17th century, Taj Mahal is one of the most beautiful
+          monuments in the world. Every year visitors numbering more than the
+          entire population of Agra pass through the magnificent gates to catch
+          a glimpse of this breathtaking monument! <br />
+          A UNESCO World Heritage Site, the Taj Mahal stands for the Crown of
+          Palaces in the Persian language. The tomb is laid out in a rectangular
+          shape and can be approached through a massive gateway which has an
+          arch and alcoves on either side of it. There are water channels and
+          fountains in the entrance which makes the monument even more
+          spectacular. The reflection of this majestic spectacle in the Yamuna
+          is almost poetic in its perfection! Covering an area of approximately
+          42 Acres, the construction of the Taj Mahal began in 1631 and it took
+          17 years before it was completed in 1648! It was constructed using
+          white marble obtained from Makrana in Rajasthan.
+        </p>
+      </div>
+    </div>
+    <!--  -->
+    <div class="TajMahal activeAgra">
+      <div class="wordsTajMahal">
+        <strong>Agra Fort</strong>
+        <p>
+          An architectural masterpiece, The Red Fort of Agra or Agra Fort was
+          built by Emperor Akbar in 1573. It is located on the right bank of the
+          River Yamuna and is made entirely of red sandstone. The historical
+          fort was once the ersthwhile residence of the Mughals until 1638. One
+          of the UNESCO World Heritage Sites, it lies 2.5 kilometres from Taj
+          Mahal. Also known as Lal –Qila, Fort Rouge or Qila-i-Akbari, Agra Fort
+          is a symbol of Agra and is so massive that it is often referred to as
+          a walled city. It is the perfect example of Mughal art and
+          architecture, built purely out of red sandstone. Within the premises
+          of Agra Fort lie the most exquisite structures like the Pearl Mosque,
+          Diwan-i I Khas, Diwan-i I Aam, Moti Masjid and Jahangiri Mahal. Some
+          part of the Agra Fort is used by the Indian Army is off-limit to
+          public access. View of Yamuna River and Taj Mahal from the fort's
+          pavilions is mind-stirring.
+        </p>
+      </div>
+      <div class="imgTajMahal">
+        <img
+          src="https://www.holidify.com/images/cmsuploads/compressed/799px-Agra_FortAgra_India_20200702133907.jpg"
+          alt=""
+        />
+      </div>
+    </div>
+    <!--  -->
+    <div class="TajMahal">
+      <div class="imgTajMahal">
+        <img
+          src="https://www.holidify.com/images/cmsuploads/compressed/shutterstock_1078858838_20200320164009.jpg"
+          alt=""
+        />
+      </div>
+      <div class="wordsTajMahal">
+        <strong>Fatehpur Sikri</strong>
+        <p>
+          Located at a distance of 40km from Agra, Fatehpur Sikri is a town in
+          the Agra district and a famous tourist attraction. A city
+          predominantly made of red sandstone, Fatehpur Sikri was founded in
+          1571 century by Mughal Emperor Akbar. It is essentially a fortified
+          city built by the king and had been the capital of his Empire for
+          fifteen years. Now a UNESCO world heritage site, it is home to Jodha
+          Bai's Palace, Jama Mosque, Buland Darwaza, and Tomb of Salim Chisti
+          among many other famous monuments. Derived from Arab and central Asian
+          tent encampments, the Imperial Complex is a work of pavilions arranged
+          in formal geometry on a piece of land. A unique blend of architectural
+          excellence, as well as religious beliefs - sums up Fatehpur Sikri. It
+          was built by Akbar to honour Sheikh Salim Chisti, whose prediction of
+          the birth of a Mughal heir came true while Akbar was visiting the then
+          city of Sikri. In honour of the prophecy, Akbar built this city and
+          Jama Masjid, a stunning mosque which is still in use today. He also
+          undertook the construction of three palaces for each of his favourite
+          wives, one a Hindu, one a Muslim and one a Christian. An Indo-Islamic
+          Masterpiece, Fatehpur Sikri look its resplendent best during sunset.
+        </p>
+      </div>
+    </div>
+    <!--  -->
+    <div class="TajMahal activeAgra">
+      <div class="wordsTajMahal">
+        <strong>Tomb of Itimad-ud-Daulah</strong>
+        <p>
+          Often referred to as the "Baby Taj Mahal", the tomb of
+          Itimad-ud-daulah is a Mughal mausoleum and often regarded as a copy of
+          the Taj Mahal. This is the first tomb in India made entirely of
+          marble. The tomb was commissioned by Nur Jahan, the wife of Jahangir,
+          for her father Mir Gheyas Beg (later known as Itimad-ud-daulah), who
+          was a minister in the court of Shah Jahan. The tomb of
+          Itimad-ud-daulah marks the transition from the first phase of the
+          Mughal architecture to the second. This was the first structure to
+          make use of pietra dura and the first to be built on the banks of the
+          Yamuna River. It basically consists of Indo-Islamic architecture, with
+          the use of arched entrances and octagonal shaped towers. If you take a
+          bird's eye of Itimad-ud-daulah Tomb, it looks like a jewel box set in
+          a garden. This magnificent mausoleum, built on the banks of Yamuna,
+          was to inspire the construction of one of the wonders of the world
+          "Taj Mahal" in the later years.
+        </p>
+      </div>
+      <div class="imgTajMahal">
+        <img
+          src="https://www.holidify.com/images/cmsuploads/compressed/Tomb_of_Itmaduddaulah_20191104101412_20191104101509.jpg"
+          alt=""
+        />
+      </div>
+    </div>
+    <div class="TajMahal">
+      <div class="imgTajMahal">
+        <img
+          src="https://www.holidify.com/images/cmsuploads/compressed/Jehangir_Mahal_Agra_Fort_1_20220825110249.jpg"
+          alt=""
+        />
+      </div>
+      <div class="wordsTajMahal">
+        <strong>Jhangir Mahal</strong>
+        <p>
+          The residential palace of Jahangir Mahal, stands tall in the Agra Fort
+          complex. Built by Akbar, in the 17th Century, this Red Sandstone
+          marvel is a multi-storeyed palace with a series of courtyards running
+          from north to south, along the eastern fort wall. The palace is
+          located north of Akbari Mahal, another important Mughal marvel that
+          now breathes in its ruins and faces the river Jamuna. One of the most
+          popular tourist places in Agra, the Jahangir Mahal served as a private
+          residence to Akbar’s son and successor, Jahangir. The Jahangir Mahal
+          is one of the first buildings you would come across when you enter
+          Agra through the Amar Singh Gate.
+        </p>
+      </div>
+    </div>
+
+    <!-- Facts About Agra -->
+
+    <!--  -->
+
+    <!--  -->
+
+    <div class="imageBeforeFact" id="FactsAgraId"></div>
+    <div class="h1PlaceDiv">
+      <h1 class="HPlaces hfacts">Some Interesting Facts About Agra</h1>
+    </div>
+
+    <div class="factsAgra">
+      <div class="factsAgraSub">
+        <strong>1. Agra Fort Was Not Built By Shah Jahan</strong>
+        <p>
+          Whenever someone questions about the history of Agra Fort, we always
+          end up saying it was built by Shah Jahan, a Mughal King, in the early
+          17th century. But do you know the Agra Fort was actually constructed
+          as a brick fort by the Rajput kings before the Mughal dynasty came
+          into power? Later on, it was controlled by the Lodis until the Mughal
+          King Akbar renovated it by using red sandstone. However, the current
+          building of the fort was shaped by Shah Jahan.
+        </p>
+      </div>
+      <div class="factsAgraSub">
+        <strong>2. Yamuna River At Agra Was Called Blue River</strong>
+        <p>
+          You wouldn't believe if we say that the polluted Yamuna river was once
+          called the Blue River on account of its pristine waters. Yes, it was
+          so transparent and clear that one could have clearly seen its river
+          bed with naked eyes. Today, it has become one of the most contaminated
+          and infected rivers in the country. Only if it could retain its
+          original beauty, it would be another wonder of Agra.
+        </p>
+      </div>
+      <div class="factsAgraSub">
+        <strong>3. Was Once The Most Powerful City</strong>
+        <p>
+          During the Mughal dynasty, Agra was one of the most popular cities in
+          the world. It served as the capital city of their kingdom in between
+          1556 and 1648. It was during the period of the Mughal kings Akbar and
+          Shah Jahan when it became the most powerful city. Kings from all over
+          the world used to visit Agra and compliment its grandeur.
+        </p>
+      </div>
+      <div class="factsAgraSub">
+        <strong>4. Was Established Before The Mahabharata Period</strong>
+        <p>
+          If you have ever been a student of history, then you must have studied
+          that Agra was founded by Sikandar Lodi, who was a king of the Delhi
+          Sultanate, in the early 16th century. But to your surprise, Agra was
+          actually established thousands of years ago, even before the period of
+          the epic Mahabharata when it was called Agraben. The presence of
+          Agraben has been mentioned several times in ancient Hindu texts.
+        </p>
+      </div>
+      <div class="factsAgraSub">
+        <strong>5. Home To A 168-Year-Old College</strong>
+        <p>
+          Unknown to many, St. John's College at Agra is one of the oldest
+          colleges in the country today. It was established in the year 1850
+          during the British Era. Today, it is not only popular on account of
+          its historical significance but also because of its architectural
+          beauty. Therefore, it wouldn't be wrong to call it one of the most
+          beautiful colleges in the country.
+        </p>
+      </div>
+      <div class="factsAgraSub">
+        <strong>6. The City With Three UNESCO World Heritage Sites </strong>
+        <p>
+          Agra is one of the two cities in India which house three UNESCO World
+          Heritage Sites, the other being Delhi. These UNESCO monuments at Agra
+          include the Red Fort, the Taj Mahal and Fatehpur Sikri, the twin city
+          of Agra which was founded by Akbar. Hence, it is no wonder it forms a
+          part of the Golden Tourism Triangle and is one of the most-visited
+          places.
+        </p>
+      </div>
+      <div class="factsAgraSub">
+        <strong>7. The Largest Shoe-Manufacturing Hub </strong>
+        <p>
+          Apart from the Taj Mahal and the sweet dish petha, if there is any
+          other thing which makes Agra top the chart is its footwear industry.
+          Today, Agra is the largest manufacturer of shoes in the country and is
+          the second largest exporter in the world after China. Doesn't that
+          surprise you? So, next time when you are on a trip to this Taj City,
+          do not forget to get yourself a pair of leather shoes.
+        </p>
+      </div>
+    </div>
+
+    <!-- About Agra -->
+
+    <div class="h1PlaceDiv" id="AboutAgraId">
+      <h1 class="HPlaces hfacts">About Agra</h1>
+    </div>
+
+    <div class="AboutAgra">
+      <p>
+        Agra, city, western Uttar Pradesh state, northern India. It lies in the
+        Indo-Gangetic Plain on the Yamuna (Jumna) River about 125 miles (200 km)
+        southeast of Delhi.
+      </p>
+      <p>
+        There was an early reference to an “Agravana” in the ancient Sanskrit
+        epic Mahabharata, and Ptolemy is said to have called the site “Agra.”
+        The city was founded by Sultan Sikandar of the Lodī dynasty in the early
+        16th century to be the capital of the Delhi sultanate. Agra also served
+        as the Mughal capital during some periods of that empire. In the late
+        18th century the city fell successively to the Jats, the Marathas, the
+        Mughals, the ruler of Gwalior, and, finally, the British in 1803. It was
+        the capital of Agra (later North-Western) province from 1833 to 1868 and
+        was one of the main centres of the Indian Mutiny (1857–58).
+      </p>
+      <p>
+        Agra is best known for the Taj Mahal (17th century), designated a UNESCO
+        World Heritage site in 1983. A complex mausoleum, the Taj Mahal is often
+        considered to be the world’s best example of Mughal architecture. The
+        Mughal emperor Shah Jahān built it for his favourite wife, Mumtāz Maḥal,
+        in the mid-17th century. Agra Fort (16th century), called the Red Fort
+        for its massive red sandstone walls, was built by the emperor Akbar; it
+        contains the Pearl Mosque (Moti Masjid; 17th century), constructed of
+        white marble, and a palace, the Jahangiri Mahal. The fort was also
+        designated a World Heritage site in 1983.
+      </p>
+      <p>
+        The Jāmiʿ Masjid, or Great Mosque, and the elegant tomb of Iʿtimād
+        al-Dawlah (1628), of white marble, are located near the Taj Mahal. To
+        the northwest, at Sikandra, is the tomb of Akbar.
+      </p>
+      <p>
+        Agra is a major road and rail junction and a commercial and industrial
+        centre known for its leather goods, cut stone, and handwoven carpets.
+        Tourism is a major factor in the city’s economy. The city is the seat of
+        Dr. B.R. Ambedkar University (formerly Agra University), founded in
+        1927. The suburbs of Agra contain the state psychiatric hospital and
+        Dayalbagh, a colony of the Radha Soami Satsang religious sect (founded
+        in the city in 1861).
+      </p>
+      <p>
+        Many religious and cultural festivals are held in Agra. Janamashtami
+        commemorates the birthday of Lord Krishna. The annual Taj Mahotsav, a
+        10-day arts, crafts, and music carnival, usually in February, is held in
+        Shilpagram, a crafts village close to the Taj Mahal.
+      </p>
+    </div>
+
+    <!-- Content Reference -->
+
+    <div class="footerDiv">
+      <footer>
+        <p>The writing informations are from below websites:-</p>
+        <p>
+          Best places To visit in Agra -
+          <a
+            target="_blank"
+            href="https://www.holidify.com/places/agra/jhangir-mahal-sightseeing-1265615.html"
+            >holidify.com</a
+          >
+        </p>
+        <p>
+          Some Interesting Facts About Agra -
+          <a
+            target="_blank"
+            href="https://www.nativeplanet.com/travel-guide/7-interesting-facts-about-agra/articlecontent-pf25337-005219.html"
+            >nativeplanet.com</a
+          >
+        </p>
+        <p>
+          About Agra -
+          <a
+            target="_blank"
+            href="https://www.britannica.com/art/Akbar-period-architecture"
+            >britannica.com</a
+          >
+        </p>
+      </footer>
+    </div>
+
+    <script src="app.js"></script>
+  </body>
+</html>
