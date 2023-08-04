@@ -108,6 +108,7 @@
   cursor: pointer;
   display: none;
   transition: block 0.5s ease-in-out;
+  user-select: none;
 }
 
 /* ------------------------------- */
